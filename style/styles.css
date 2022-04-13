@@ -1,0 +1,32 @@
+.bloco1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bloco2{
+    display: grid;
+    justify-content: center;
+}
+
+.titles{
+    font-size: large;
+    margin: 60px 0 0 0;
+}
+
+.baseboard{
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
